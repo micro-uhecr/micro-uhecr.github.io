@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap");
+body {
+  background-color: black;
+  margin: 0%;
+  font-family: "Kanit";
+}
+
+.top-bottom-bar {
+  color: #FFAA67;
+  background-color: #2B4D59;
+  padding: .5em;
+  height: 50px;
+}
+
+.top-bottom-bar p {
+  font-size: .8em;
+  text-align: center;
+}
+
+.top-bottom-bar ul {
+  vertical-align: middle;
+  font-size: 1.2em;
+  text-align: right;
+}
+
+.top-bottom-bar ul :hover {
+  color: #FFDC7C;
+}
+
+div {
+  padding-top: 1em;
+  padding-bottom: 3em;
+}
+
+li {
+  display: inline;
+  padding-right: 1em;
+}
+
+.main-section {
+  min-height: 500px;
+  background-image: url("../images/MICRO_intro_2020.03.30_page3.png");
+  text-align: center;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-position: center 15%;
+  background-blend-mode: hard-light;
+}
+
+.main-section .subtitle {
+  color: #FFDC7C;
+  font-size: 1.5em;
+  margin-top: 0%;
+  margin-left: 500px;
+  margin-right: 500px;
+  background-color: #FFFFFFCC;
+  height: 50px;
+}
+
+.main-section h1 {
+  margin: .1em;
+  color: #DA674A;
+  font-size: 8em;
+  letter-spacing: .1em;
+  margin-bottom: 0%;
+  margin-left: 500px;
+  margin-right: 500px;
+  text-shadow: 3px 3px 5px #FFDC7C;
+  background-color: #FFFFFFCC;
+}
+
+.about-section {
+  background-color: white;
+  text-align: center;
+  color: #666666;
+  scroll-padding: 200px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.about-section h1 {
+  font-size: 2em;
+}
+
+.about-section p {
+  max-width: 600px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin: auto;
+}
+
+.about-section #first {
+  float: left;
+  max-width: 300px;
+}
+
+.research-section {
+  background-color: #666666;
+  text-align: center;
+  color: #FFDC7C;
+  scroll-padding: 200px;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.research-section h1 {
+  font-size: 2em;
+}
+
+.research-section p {
+  max-width: 600px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin: auto;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,132 @@
+// basic colors (Rustic Riverbed palette)
+$rrdark     :   #2B4D59;
+$rrgreen    :   #39998E;
+$rryellow   :   #FFDC7C;
+$rrorange   :   #FFAA67;
+$rrred      :   #DA674A;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+
+body {
+    background-color: black;
+    margin: 0%;
+    font-family: "Kanit";
+}
+
+.top-bottom-bar {
+    color: $rrorange;
+    background-color:$rrdark;
+    padding: .5em;
+    height: 50px;
+    
+    p {
+        font-size: .8em;
+        text-align: center;
+    }
+
+    ul {
+        vertical-align: middle;
+        font-size: 1.2em;
+        text-align: right;
+        :hover {
+            color: $rryellow;
+        }
+    
+    }
+}
+
+div {
+    padding-top: 1em;
+    padding-bottom: 3em;
+}
+
+li {
+    display: inline;
+    padding-right: 1em;
+}
+
+.main-section {
+    min-height: 500px;
+    background-image: url("../images/MICRO_intro_2020.03.30_page3.png");
+    text-align: center;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center 15%;
+    background-blend-mode: hard-light;
+
+    .subtitle {
+        color: $rryellow;
+        font-size: 1.5em;
+        margin-top: 0%;
+        margin-left: 500px;
+        margin-right: 500px;
+        background-color: #FFFFFFCC;
+        height: 50px;
+    }
+    
+    h1 {
+        margin: .1em;
+        color:$rrred;
+        font-size: 8em;
+        letter-spacing: .1em;
+        margin-bottom: 0%;
+        margin-left: 500px;
+        margin-right: 500px;
+        text-shadow: 3px 3px 5px $rryellow;
+        background-color: #FFFFFFCC;
+    }
+}
+
+.about-section {
+    background-color: white;
+    text-align: center;
+    color: #666666;
+    scroll-padding: 200px;
+
+    align-content: center;
+
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        max-width: 600px;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin: auto;
+    }
+
+
+    #first{
+        float: left;
+        max-width: 300px;
+    }
+
+    // #second{
+    //     float: left;
+    //     max-width: 300px;
+    // }
+
+}
+
+.research-section {
+    background-color: #666666;
+    text-align: center;
+    color: $rryellow;
+    scroll-padding: 200px;
+
+    align-content: center;
+
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        max-width: 600px;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin: auto;
+    }
+
+}
