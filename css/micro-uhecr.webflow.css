@@ -203,6 +203,9 @@
   color: #444;
   text-decoration: none;
 }
+.reflinks{
+  text-decoration: none;
+}
 
 .footer-link:hover {
   text-decoration: underline;
