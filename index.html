@@ -50,7 +50,106 @@
     <div class="centered-container w-container">
       <h2>Updates</h2>
       <p>Keep track of the progress of the project. <br>Here we communicate the latest results and milestones achieved.</p>
-    </div>
+   </div>
+   <div class="container w-container">
+      <p>A large part of the work done in the "UHECR analysis tool" Work Package  concerns the “Combined fit”, a tool which evaluates 
+		an astrophysical model aiming at describing the composition and the energy spectrum of 
+		Ultra High Energy Cosmic Rays (UHECR). Nuclei are injected at sources, propagated through 
+		the universe, and the obtained flux spectrum and composition are compared with observed 
+		one to get the best fit scenario. A code has been developed by Antonio Condorelli (IJCLab), 
+		in collaboration with Johan Bregeon (LPSC) and Sullivan Marafico (IJCLab), to perform 
+		the Combined fit, and is available inside the team, with a version being prepared to be 
+		delivered as a public tool. To deal with the propagation of nuclei, a tensor formalism has 
+		been designed by Jonathan Biteau. 
+		Antonio Condorelli and Leonel Morejon (BUW) have initiated a systematic comparison of 
+		tensors obtained with the two main UHECR propagation codes (SimProp and CRPropa).<br />
+		Combined-fit analysis including moments of log A, where A is the nuclear mass, moments 
+		of Xmax, where Xmax is the mean shower depth, of Xmax distributions have been compared 
+		by Antonio Condorelli, suggesting similar discrimination power although with known 
+		differences in goodness-of-fit estimators. Carla Bleve (LPSC) and Corinne Bérat (LPSC) 
+		are developing a module to account as well for mass observables from the surface detectors 
+		of UHECR observatories. <br />
+
+		A beta version of the combined fit including arrival directions has been developed by 
+		Sullivan Marafico, Jonathan Biteau and Olivier Deligny (IJCLab). It will be integrated in 
+		the main software by Sullivan Marafico by the end of 2022. In this beta version, transient 
+		sources follow the distribution of stellar mass and star formation rate as traced by a 
+		recent catalogue of ~400,000 galaxies within a billion lightyears (z~0.08) established by 
+		Jonathan Biteau. The source evolution at larger redshifts follows the cosmic evolution of 
+		these two tracers as inferred from deep-field observations. The best-fit model confirms 
+		earlier findings of the IJCLab group. The magnetic field of clusters should strongly impact 
+		UHECR skymaps. A collaboration between Antonio Condorelli and Remy Adam (LLR), has been 
+		established to account for hadronic interactions and magnetic effects on UHECRs in galaxy 
+		clusters. A publication is planned to be submitted by the end of 2022. <br /><br />
+     
+        The partners from Bochum and Wuppertal Universities optimized and extended the CRPropa 
+		framework. The new version CRPropa 3.2 (published in Sept 2022 in JCAP) received a major 
+		upgrade as compared to the previously published version CRPropa 3.1. In v3.1, the concept 
+		of diffusive propagation had been added by adding the solver for stochastic differential 
+		equation as an alternative to the solution to the equation of motion. This opens the window 
+		to not only using CRPropa as a tool for extragalactic propagation, but generally allows 
+		for propagation in local and Galactic environments. To be able to do this, however, major 
+		changes were needed. Most importantly, the photon fields relevant for extragalactic 
+		propagation were hard-coded into the software. In a larger effort, the Bochum group 
+		modified the program to be able to deal with custom photon fields. Further additions 
+		led in Bochum were updates to the gas density and magnetic field modules. Further, 
+		proton-proton interactions were added in a simplified approach as a first-order 
+		approximation, only containing the pion and kaon contributions and only working for 
+		large statistics samples. The development of a hadronic interaction module in CRPropa 
+		is lead by the team in Wuppertal. <br />
+
+		The development of a new propagation tool AGNPropa has made significant progress. Based on 
+		the CRPropa code, the Bochum team develop the code AGNPropa with the aim to describe AGN 
+		flares in the time, energy and ultimately also the spatial regime. A first working version 
+		of the code exists, where it is possible to model the evolution of instantaneously injected 
+		flares from blazars. A relativistic moving blob is simulated to contain a population of 
+		high-energy cosmic rays that propagate in a magnetic field (so far to be assumed purely 
+		turbulent, a regular field is to be added at a later stage). The blob is moving away from 
+		the coronal radiation field of an AGN disk and photohadronic interactions with the disk 
+		are included. A first performance test shows that gamma-ray absorption is working well. 
+		The partners have further studied the performance of the code with the equation of motion 
+		as compared to the transport equation approach and can show that the codes produce the 
+		same results within numerical errors in the energy range where they both work. This is the
+		first type of code that can perform three-dimensional transport modeling. It is the goal 
+		to compare this code to the transport codes on the market as a next step. To do so, the 
+		German partners are currently implementing a synchrotron self Compton model, which is 
+		technically challenging, as it is a non-linear process.<br /><br />
+
+		The activities in Wuppertal  concerns firstly the 
+		implementation of Hadronic Interactions in CRPropa: CRPropa has been equipped with a 
+		module for hadronic interactions which takes input from a variety of existing hadronic 
+		interaction codes (e.g. EPOSLHC, Sybill, QGSJet, and others). The module extends 
+		CRPropa's region of applicability to environments such as bursting sources which 
+		are of interest for this project. Testing of the module's performance and functionality 
+		has been also carried out. A publication is in preparation showcasing it's usage 
+		and presenting the physical predictions of the model in scenarios compatible with 
+		bursting sources. It should be pointed out that the module is also intended for 
+		galactic propagation of lower energy cosmic rays and other scenarios where ballistic 
+		propagation is applicable and hadronic interactions are of relevance.<br />
+		The BUW team contributes to the propagation framework and related tools in 
+		collaboration with IJCLab. On the BU Wuppertal side, a propagation tensor produced 
+		with simulations from CRPropa has been completed, as an alternative to the on produced 
+		with SimProp in IJCLab. The advantage of such tensors is to allow faster evaluation 
+		of multiple propagation scenarios such as different source distributions and all 
+		possible nuclear compositions of nuclei up to the mass of Iron. Furthermore, an
+		 additional deliverable, the propagation matrix, has been produced as separate 
+		 instrument for evaluation of cases where the redshift distribution does not change, 
+		 while changes of composition are studied. Furthermore, the propagation matrix is 
+		 comparable to previous published results and allows comparison of the current 
+		 tensor to those earlier works. The next steps include characterizing the tensors 
+		 by comparing them, and employ them in studies of UHECRs propagation.<br />
+		 
+		 
+		A website with modern design has been prepared (BUW) and published on the web 
+		to establish an online presence and communicate the progress of the project. 
+		In addition, a logo has been designed and made available in the website for 
+		presentation and download, with the intention of establishing a memorable visual 
+		identity that is coherent over all forms of presentation of the work (slides, webpages, etc.). 
+		The website acknowledges the funding parties, lists the scientists working for 
+		the project, keeps a growing list of references to publications, contributions in 
+		conferences and links to the software and tools produced in the project.
+      </p>
+	</div>
     <div class="container w-container">
       <div class="text-block-2">
         <a href="#nav" class="link"><span><strong class="bold-text">Back to the top</strong></span></a>
