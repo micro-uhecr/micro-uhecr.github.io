@@ -48,107 +48,25 @@
   </header>
   <div id="updates" class="oddsection updates wf-section">
     <div class="centered-container w-container">
-      <h2>Updates</h2>
-      <p>Keep track of the progress of the project. <br>Here we communicate the latest results and milestones achieved.</p>
-   </div>
-   <div class="container w-container">
-      <p>A large part of the work done in the "UHECR analysis tool" Work Package  concerns the “Combined fit”, a tool which evaluates 
-		an astrophysical model aiming at describing the composition and the energy spectrum of 
-		Ultra High Energy Cosmic Rays (UHECR). Nuclei are injected at sources, propagated through 
-		the universe, and the obtained flux spectrum and composition are compared with observed 
-		one to get the best fit scenario. A code has been developed by Antonio Condorelli (IJCLab), 
-		in collaboration with Johan Bregeon (LPSC) and Sullivan Marafico (IJCLab), to perform 
-		the Combined fit, and is available inside the team, with a version being prepared to be 
-		delivered as a public tool. To deal with the propagation of nuclei, a tensor formalism has 
-		been designed by Jonathan Biteau. 
-		Antonio Condorelli and Leonel Morejon (BUW) have initiated a systematic comparison of 
-		tensors obtained with the two main UHECR propagation codes (SimProp and CRPropa).<br />
-		Combined-fit analysis including moments of log A, where A is the nuclear mass, moments 
-		of Xmax, where Xmax is the mean shower depth, of Xmax distributions have been compared 
-		by Antonio Condorelli, suggesting similar discrimination power although with known 
-		differences in goodness-of-fit estimators. Carla Bleve (LPSC) and Corinne Bérat (LPSC) 
-		are developing a module to account as well for mass observables from the surface detectors 
-		of UHECR observatories. <br />
+      <h2>Progress</h2>
+      
+      <p>A large part of the work done in the "UHECR analysis tool" Work Package  concerns the “Combined fit”, a tool which evaluates an astrophysical model aiming at describing the composition and the energy spectrum of Ultra High Energy Cosmic Rays (UHECR). Nuclei are injected at sources, propagated through the universe, and the obtained flux spectrum and composition are compared with observed one to get the best fit scenario. A code has been developed by Antonio Condorelli (IJCLab), in collaboration with Johan Bregeon (LPSC) and Sullivan Marafico (IJCLab), to perform the Combined fit, and is available inside the team, with a version being prepared to be delivered as a public tool. To deal with the propagation of nuclei, a tensor formalism has been designed by Jonathan Biteau.</p>
 
-		A beta version of the combined fit including arrival directions has been developed by 
-		Sullivan Marafico, Jonathan Biteau and Olivier Deligny (IJCLab). It will be integrated in 
-		the main software by Sullivan Marafico by the end of 2022. In this beta version, transient 
-		sources follow the distribution of stellar mass and star formation rate as traced by a 
-		recent catalogue of ~400,000 galaxies within a billion lightyears (z~0.08) established by 
-		Jonathan Biteau. The source evolution at larger redshifts follows the cosmic evolution of 
-		these two tracers as inferred from deep-field observations. The best-fit model confirms 
-		earlier findings of the IJCLab group. The magnetic field of clusters should strongly impact 
-		UHECR skymaps. A collaboration between Antonio Condorelli and Remy Adam (LLR), has been 
-		established to account for hadronic interactions and magnetic effects on UHECRs in galaxy 
-		clusters. A publication is planned to be submitted by the end of 2022. <br /><br />
-     
-        The partners from Bochum and Wuppertal Universities optimized and extended the CRPropa 
-		framework. The new version CRPropa 3.2 (published in Sept 2022 in JCAP) received a major 
-		upgrade as compared to the previously published version CRPropa 3.1. In v3.1, the concept 
-		of diffusive propagation had been added by adding the solver for stochastic differential 
-		equation as an alternative to the solution to the equation of motion. This opens the window 
-		to not only using CRPropa as a tool for extragalactic propagation, but generally allows 
-		for propagation in local and Galactic environments. To be able to do this, however, major 
-		changes were needed. Most importantly, the photon fields relevant for extragalactic 
-		propagation were hard-coded into the software. In a larger effort, the Bochum group 
-		modified the program to be able to deal with custom photon fields. Further additions 
-		led in Bochum were updates to the gas density and magnetic field modules. Further, 
-		proton-proton interactions were added in a simplified approach as a first-order 
-		approximation, only containing the pion and kaon contributions and only working for 
-		large statistics samples. The development of a hadronic interaction module in CRPropa 
-		is lead by the team in Wuppertal. <br />
+      <p>Antonio Condorelli and Leonel Morejon (BUW) have initiated a systematic comparison of tensors obtained with the two main UHECR propagation codes (SimProp and CRPropa). Combined-fit analysis including moments of log A, where A is the nuclear mass, moments of Xmax, where Xmax is the mean shower depth, of Xmax distributions have been compared by Antonio Condorelli, suggesting similar discrimination power although with known differences in goodness-of-fit estimators. Carla Bleve (LPSC) and Corinne Bérat (LPSC) are developing a module to account as well for mass observables from the surface detectors of UHECR observatories.</p>
 
-		The development of a new propagation tool AGNPropa has made significant progress. Based on 
-		the CRPropa code, the Bochum team develop the code AGNPropa with the aim to describe AGN 
-		flares in the time, energy and ultimately also the spatial regime. A first working version 
-		of the code exists, where it is possible to model the evolution of instantaneously injected 
-		flares from blazars. A relativistic moving blob is simulated to contain a population of 
-		high-energy cosmic rays that propagate in a magnetic field (so far to be assumed purely 
-		turbulent, a regular field is to be added at a later stage). The blob is moving away from 
-		the coronal radiation field of an AGN disk and photohadronic interactions with the disk 
-		are included. A first performance test shows that gamma-ray absorption is working well. 
-		The partners have further studied the performance of the code with the equation of motion 
-		as compared to the transport equation approach and can show that the codes produce the 
-		same results within numerical errors in the energy range where they both work. This is the
-		first type of code that can perform three-dimensional transport modeling. It is the goal 
-		to compare this code to the transport codes on the market as a next step. To do so, the 
-		German partners are currently implementing a synchrotron self Compton model, which is 
-		technically challenging, as it is a non-linear process.<br /><br />
+      <p>A beta version of the combined fit including arrival directions has been developed by Sullivan Marafico, Jonathan Biteau and Olivier Deligny (IJCLab). It will be integrated in the main software by Sullivan Marafico by the end of 2022. In this beta version, transient sources follow the distribution of stellar mass and star formation rate as traced by a recent catalogue of ~400,000 galaxies within a billion lightyears (z~0.08) established by Jonathan Biteau. The source evolution at larger redshifts follows the cosmic evolution of these two tracers as inferred from deep-field observations. The best-fit model confirms earlier findings of the IJCLab group. The magnetic field of clusters should strongly impact UHECR skymaps. A collaboration between Antonio Condorelli and Remy Adam (LLR), has been established to account for hadronic interactions and magnetic effects on UHECRs in galaxy clusters. A publication is planned to be submitted by the end of 2022.</p>
 
-		The activities in Wuppertal  concerns firstly the 
-		implementation of Hadronic Interactions in CRPropa: CRPropa has been equipped with a 
-		module for hadronic interactions which takes input from a variety of existing hadronic 
-		interaction codes (e.g. EPOSLHC, Sybill, QGSJet, and others). The module extends 
-		CRPropa's region of applicability to environments such as bursting sources which 
-		are of interest for this project. Testing of the module's performance and functionality 
-		has been also carried out. A publication is in preparation showcasing it's usage 
-		and presenting the physical predictions of the model in scenarios compatible with 
-		bursting sources. It should be pointed out that the module is also intended for 
-		galactic propagation of lower energy cosmic rays and other scenarios where ballistic 
-		propagation is applicable and hadronic interactions are of relevance.<br />
-		The BUW team contributes to the propagation framework and related tools in 
-		collaboration with IJCLab. On the BU Wuppertal side, a propagation tensor produced 
-		with simulations from CRPropa has been completed, as an alternative to the on produced 
-		with SimProp in IJCLab. The advantage of such tensors is to allow faster evaluation 
-		of multiple propagation scenarios such as different source distributions and all 
-		possible nuclear compositions of nuclei up to the mass of Iron. Furthermore, an
-		 additional deliverable, the propagation matrix, has been produced as separate 
-		 instrument for evaluation of cases where the redshift distribution does not change, 
-		 while changes of composition are studied. Furthermore, the propagation matrix is 
-		 comparable to previous published results and allows comparison of the current 
-		 tensor to those earlier works. The next steps include characterizing the tensors 
-		 by comparing them, and employ them in studies of UHECRs propagation.<br />
-		 
-		 
-		A website with modern design has been prepared (BUW) and published on the web 
-		to establish an online presence and communicate the progress of the project. 
-		In addition, a logo has been designed and made available in the website for 
-		presentation and download, with the intention of establishing a memorable visual 
-		identity that is coherent over all forms of presentation of the work (slides, webpages, etc.). 
-		The website acknowledges the funding parties, lists the scientists working for 
-		the project, keeps a growing list of references to publications, contributions in 
-		conferences and links to the software and tools produced in the project.
-      </p>
+      <p>The partners from Bochum and Wuppertal Universities optimized and extended the CRPropa framework. The new version CRPropa 3.2 (published in Sept 2022 in JCAP) received a major upgrade as compared to the previously published version CRPropa 3.1. In v3.1, the concept of diffusive propagation had been added by adding the solver for stochastic differential equation as an alternative to the solution to the equation of motion. This opens the window to not only using CRPropa as a tool for extragalactic propagation, but generally allows for propagation in local and Galactic environments. To be able to do this, however, major changes were needed. Most importantly, the photon fields relevant for extragalactic propagation were hard-coded into the software. In a larger effort, the Bochum group modified the program to be able to deal with custom photon fields. Further additions led in Bochum were updates to the gas density and magnetic field modules. Further, proton-proton interactions were added in a simplified approach as a first-order approximation, only containing the pion and kaon contributions and only working for large statistics samples. The development of a hadronic interaction module in CRPropa is lead by the team in Wuppertal.</p>
+      
+      <p>The development of a new propagation tool AGNPropa has made significant progress. Based on the CRPropa code, the Bochum team develop the code AGNPropa with the aim to describe AGN flares in the time, energy and ultimately also the spatial regime. A first working version of the code exists, where it is possible to model the evolution of instantaneously injected flares from blazars. A relativistic moving blob is simulated to contain a population of high-energy cosmic rays that propagate in a magnetic field (so far to be assumed purely turbulent, a regular field is to be added at a later stage). The blob is moving away from the coronal radiation field of an AGN disk and photohadronic interactions with the disk are included. A first performance test shows that gamma-ray absorption is working well.</p>
+
+      <p>The partners have further studied the performance of the code with the equation of motion as compared to the transport equation approach and can show that the codes produce the same results within numerical errors in the energy range where they both work. This is the first type of code that can perform three-dimensional transport modeling. It is the goal to compare this code to the transport codes on the market as a next step. To do so, the German partners are currently implementing a synchrotron self Compton model, which is technically challenging, as it is a non-linear process.</p>
+
+      <p>The activities in Wuppertal  concerns firstly the implementation of Hadronic Interactions in CRPropa: CRPropa has been equipped with a module for hadronic interactions which takes input from a variety of existing hadronic interaction codes (e.g. EPOSLHC, Sybill, QGSJet, and others). The module extends CRPropa's region of applicability to environments such as bursting sources which are of interest for this project. Testing of the module's performance and functionality has been also carried out. A publication is in preparation showcasing it's usage and presenting the physical predictions of the model in scenarios compatible with bursting sources. It should be pointed out that the module is also intended for galactic propagation of lower energy cosmic rays and other scenarios where ballistic propagation is applicable and hadronic interactions are of relevance.</p>
+
+      <p>The BUW team contributes to the propagation framework and related tools in collaboration with IJCLab. On the BU Wuppertal side, a propagation tensor produced with simulations from CRPropa has been completed, as an alternative to the on produced with SimProp in IJCLab. The advantage of such tensors is to allow faster evaluation of multiple propagation scenarios such as different source distributions and all possible nuclear compositions of nuclei up to the mass of Iron. Furthermore, an additional deliverable, the propagation matrix, has been produced as separate instrument for evaluation of cases where the redshift distribution does not change, while changes of composition are studied. Furthermore, the propagation matrix is comparable to previous published results and allows comparison of the current tensor to those earlier works. The next steps include characterizing the tensors by comparing them, and employ them in studies of UHECRs propagation.</p>
+
+      <p>A website with modern design has been prepared (BUW) and published on the web to establish an online presence and communicate the progress of the project. In addition, a logo has been designed and made available in the website for presentation and download, with the intention of establishing a memorable visual identity that is coherent over all forms of presentation of the work (slides, webpages, etc.). The website acknowledges the funding parties, lists the scientists working for the project, keeps a growing list of references to publications, contributions in conferences and links to the software and tools produced in the project.</p>
 	</div>
     <div class="container w-container">
       <div class="text-block-2">
@@ -203,22 +121,43 @@
     <div class="centered-container w-container">
       <h2>Members</h2>
       <p class="members_group_headline">Head Researchers</p>
-      <div class="gallery-grid-container-t1"><img src="images/karl-heinz_kampert.png" loading="lazy" width="150" id="w-node-f9c9d015-d157-717a-1046-bd623b6074b8-f31e895c" sizes="(max-width: 479px) 21vw, (max-width: 767px) 22vw, 150px" alt="">
-        <a id="w-node-_6975f800-f73c-6f07-7fc0-c2318fbe3ad5-f31e895c" href="#">Text Link</a><img src="images/avatar-g991dac70d_640.png" loading="lazy" width="150" id="w-node-f0a9e062-942b-713a-b1b5-98b7f2de4dde-f31e895c" srcset="images/avatar-g991dac70d_640-p-500.png 500w, images/avatar-g991dac70d_640.png 640w" sizes="(max-width: 479px) 29vw, (max-width: 767px) 22vw, 150px" alt=""><img src="images/corinne_berat.jpg" loading="lazy" width="150" id="w-node-c3e99e6a-aab4-f261-e4f5-15d2f6c49716-f31e895c" sizes="(max-width: 479px) 26vw, (max-width: 767px) 22vw, 150px" alt=""><img src="images/avatar-g991dac70d_640.png" loading="lazy" width="150" id="w-node-_242ee101-fb7a-b70e-187e-49670a25d335-f31e895c" srcset="images/avatar-g991dac70d_640-p-500.png 500w, images/avatar-g991dac70d_640.png 640w" sizes="(max-width: 479px) 21vw, (max-width: 767px) 22vw, 150px" alt="">
+      <div class="gallery-grid-container-t1">
+        
+        <img src="images/karl-heinz_kampert.png" loading="lazy" width="150" id="w-node-f9c9d015-d157-717a-1046-bd623b6074b8-f31e895c" sizes="(max-width: 479px) 21vw, (max-width: 767px) 22vw, 150px" alt="">
+        
+        <img src="images/Biteau_Jonathan-profile.jpg" loading="lazy" width="150" id="w-node-f0a9e062-942b-713a-b1b5-98b7f2de4dde-f31e895c" srcset="images/Biteau_Jonathan-profile.jpg 500w, images/avatar-g991dac70d_640.png 640w" sizes="(max-width: 479px) 29vw, (max-width: 767px) 22vw, 150px" alt="">
+        
+        <img src="images/corinne_berat.jpg" loading="lazy" width="150" id="w-node-c3e99e6a-aab4-f261-e4f5-15d2f6c49716-f31e895c" sizes="(max-width: 479px) 26vw, (max-width: 767px) 22vw, 150px" alt="">
+        
+        <img src="images/julia_profile.jpeg" loading="lazy" width="150" id="w-node-_242ee101-fb7a-b70e-187e-49670a25d335-f31e895c" srcset="images/julia_profile.jpeg 500w, images/avatar-g991dac70d_640.png 640w" sizes="(max-width: 479px) 21vw, (max-width: 767px) 22vw, 150px" alt="">
+        
         <div>
           <a href="https://annuaire.in2p3.fr/464-496/corinne-berat">Corinne Berat</a>
         </div>
+        
         <div>
           <a href="https://annuaire.in2p3.fr/571-7087/jonathan-biteau">Jonathan Biteau</a>
         </div>
+        
         <div>
           <a href="https://at-web.physik.uni-wuppertal.de/~kampert/">Karl-Heinz Kampert</a>
         </div>
+        
         <div>
         <a href="https://www.physik.ruhr-uni-bochum.de/Professuren/prof-dr-tjus-julia/">Julia Tjus</a></div>
       </div>
+
       <p class="members_group_headline">Experienced Researchers</p>
-      <div class="gallery-grid-container-t2"><img src="images/avatar-g991dac70d_640.png" loading="lazy" width="125" id="w-node-_519f2006-1d79-e2d5-6f36-aa60f5714247-f31e895c" srcset="images/avatar-g991dac70d_640-p-500.png 500w, images/avatar-g991dac70d_640.png 640w" sizes="(max-width: 479px) 26vw, (max-width: 767px) 16vw, 124.99999237060547px" alt=""><img src="images/avatar-g991dac70d_640.png" loading="lazy" width="125" id="w-node-_519f2006-1d79-e2d5-6f36-aa60f571424c-f31e895c" srcset="images/avatar-g991dac70d_640-p-500.png 500w, images/avatar-g991dac70d_640.png 640w" sizes="(max-width: 479px) 23vw, (max-width: 767px) 16vw, 124.99999237060547px" alt=""><img src="images/avatar-g991dac70d_640.png" loading="lazy" width="125" id="w-node-a8fef3cc-c03a-cfeb-1075-ae19f97d5858-f31e895c" srcset="images/avatar-g991dac70d_640-p-500.png 500w, images/avatar-g991dac70d_640.png 640w" sizes="(max-width: 479px) 25vw, (max-width: 767px) 16vw, 124.99999237060547px" alt=""><img src="images/avatar-g991dac70d_640.png" loading="lazy" width="125" id="w-node-_29d37545-8d91-1bc8-458a-13006c48e5b7-f31e895c" srcset="images/avatar-g991dac70d_640-p-500.png 500w, images/avatar-g991dac70d_640.png 640w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 16vw, 124.99999237060547px" alt="">
+        <div class="gallery-grid-container-t2">
+          <img src="images/Carla-Bleve.png" loading="lazy" width="125" id="w-node-_519f2006-1d79-e2d5-6f36-aa60f571424c-f31e895c" srcset="images/Carla-Bleve.png 500w, images/avatar-g991dac70d_640.png 640w" sizes="(max-width: 479px) 23vw, (max-width: 767px) 16vw, 124.99999237060547px" alt="">
+          
+          <img src="images/avatar-g991dac70d_640.png" loading="lazy" width="125" id="w-node-a8fef3cc-c03a-cfeb-1075-ae19f97d5858-f31e895c" srcset="images/avatar-g991dac70d_640-p-500.png 500w, images/avatar-g991dac70d_640.png 640w" sizes="(max-width: 479px) 25vw, (max-width: 767px) 16vw, 124.99999237060547px" alt="">
+          
+          <img src="images/avatar-g991dac70d_640.png" loading="lazy" width="125" id="w-node-_519f2006-1d79-e2d5-6f36-aa60f5714247-f31e895c" srcset="images/Olivier_profile.png 500w, images/avatar-g991dac70d_640.png 640w" sizes="(max-width: 479px) 26vw, (max-width: 767px) 16vw, 124.99999237060547px" alt="">
+          
+          <img src="images/julian_rautenberg.png" loading="lazy" width="125" id="w-node-_2f97e314-8cd6-fd88-2672-dbbe2bcde323-f31e895c" sizes="(max-width: 479px) 100vw, (max-width: 767px) 16vw, 124.99999237060547px" alt="">
+
+          <img src="images/Eric_profile.jpeg" loading="lazy" width="125" id="w-node-_29d37545-8d91-1bc8-458a-13006c48e5b7-f31e895c" srcset="images/Eric_profile.jpeg 500w, images/avatar-g991dac70d_640.png 640w" sizes="(max-width: 479px) 100vw, (max-width: 767px) 16vw, 124.99999237060547px" alt="">
         <div>
           <a href="https://annuaire.in2p3.fr/6070-6690/carla-bleve">Carla Bleve</a>
         </div>
@@ -228,18 +167,37 @@
         <div> 
           <a href="https://annuaire.in2p3.fr/1495-7199/olivier-deligny">Olivier Deligny</a>
         </div>
-        <div id="w-node-fadc23da-bf00-d391-5f76-866696b6bfeb-f31e895c">Eric Mayotte</div><img src="images/julian_rautenberg.png" loading="lazy" width="125" id="w-node-_2f97e314-8cd6-fd88-2672-dbbe2bcde323-f31e895c" sizes="(max-width: 479px) 100vw, (max-width: 767px) 16vw, 124.99999237060547px" alt="">
+        <div id="w-node-fadc23da-bf00-d391-5f76-866696b6bfeb-f31e895c">
+          <a href="https://physics.mines.edu/project/mayotte-eric/">Eric Mayotte</a>
+        </div>
+        
         <div>
           <a href="https://at-web.physik.uni-wuppertal.de/~rautenbe/">Julian Rautenberg</a>
         </div>
       </div>
+
       <p class="members_group_headline">Postdocs and PhDs</p>
-      <div class="gallery-grid-container-t3"><img src="images/avatar-g991dac70d_640.png" loading="lazy" width="120" id="w-node-_6e554b5c-2897-c6ed-45a3-afe6093902f3-f31e895c" srcset="images/avatar-g991dac70d_640-p-500.png 500w, images/avatar-g991dac70d_640.png 640w" sizes="(max-width: 479px) 31vw, 119.99999237060547px" alt=""><img src="images/antonio_condorelli.jpeg" loading="lazy" width="120" id="w-node-_8435436f-4e78-1b78-d52b-e1d20060506f-f31e895c" sizes="(max-width: 479px) 28vw, 119.99999237060547px" alt=""><img src="images/leonel_morejon.jpeg" loading="lazy" width="120" id="w-node-_6e554b5c-2897-c6ed-45a3-afe6093902f8-f31e895c" alt="">
+      <div class="gallery-grid-container-t3">
+        <img src="images/antonio_condorelli.jpeg" loading="lazy" width="120" id="w-node-_8435436f-4e78-1b78-d52b-e1d20060506f-f31e895c" sizes="(max-width: 479px) 28vw, 120px" alt="">
+        
+        <img src="images/antonio_condorelli.jpeg" loading="lazy" width="120" id="w-node-_8435436f-4e78-1b78-d52b-e1d20060506f-f31e895c" sizes="(max-width: 479px) 28vw, 120px" alt="">
+        
+        <img src="images/Leander_profile.jpeg" loading="lazy" width="120" id="w-node-_6e554b5c-2897-c6ed-45a3-afe6093902f3-f31e895c" srcset="images/Leander_profile.jpeg 500w, images/avatar-g991dac70d_640.png 640w" sizes="(max-width: 479px) 31vw, 120px" alt="">
+        
+        <img src="images/leonel_morejon.jpeg" loading="lazy" width="120" id="w-node-_6e554b5c-2897-c6ed-45a3-afe6093902f8-f31e895c" alt="">
+        
         <div id="w-node-_8e885fd0-81c1-f3af-72bf-c6d5662ac41b-f31e895c">
           <a href="https://annuaire.in2p3.fr/7298-9560/antonio-condorelli">Antonio Condorelli</a>
         </div>
-        <div>Leonel Morejon</div>
-        <div>Leander Schlegel</div>
+        
+        <div>
+          <a href="https://www.researchgate.net/profile/Leonel-Morejon">Leonel Morejon</a>
+        </div>
+        
+        <div>
+          <a href="www.wikipedia.org">Leander Schlegel</a>
+        </div>
+
       </div>
     </div>
     <div class="container w-container">
